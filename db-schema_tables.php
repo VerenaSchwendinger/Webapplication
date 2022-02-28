@@ -9,8 +9,6 @@
     <thead>
         <tr>
             <th>Table Name</th>
-            <th>Describe Tables</th>
-            <th>Show Data</th>
         </tr>
     </thead>
     <?php
