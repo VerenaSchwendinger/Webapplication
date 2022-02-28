@@ -2,9 +2,6 @@
     include 'navbar.php';
     include 'db-connection.php';
     $dbCon = getDBConnection();
-
-    $database = $_GET["database"];
-    $table = $_GET["table"];
 ?>
 
 <div class="container">
