@@ -2,8 +2,6 @@
     include 'navbar.php';
     include 'db-connection.php';
     $dbCon = getDBConnection();
-
-    $database = $_GET["database"];
 ?>
 
 <div class="container">
@@ -26,8 +24,6 @@
             {
                 ?>
                 <td><?php echo$table?></td>
-                <td><a class="nav-link" href="db-schema_describeTable.php?table=<?php echo $table?>&database=<?php echo $database?>"><button>Describe</button></a></td>
-                    <td><a class="nav-link" href="db-schema_showData.php?table=<?php echo $table?>&database=<?php echo $database?>"><button>Data</button></a></td>  
                 </tr>
                 <?php
             }
