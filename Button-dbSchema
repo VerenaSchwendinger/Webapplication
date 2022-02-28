@@ -1,10 +1,8 @@
 $table = $_GET["table"];
 $database = $_GET["database"];
 
-<form action="db-schema_tables.php?database=<?php echo $database ?>" method="POST">
-    <td><a class="nav-link"><button>Tables</button></a></td>
+<form action="name.php?database=<?php echo $database ?>" method="POST">
+    <td><a class="nav-link"><button>Überschrift</button></a></td>
 </form>
 
-<td><?php echo$table?></td>
-<td><a class="nav-link" href="db-schema_describeTable.php?table=<?php echo $table?>&database=<?php echo $database?>"><button>Describe</button></a></td>
-<td><a class="nav-link" href="db-schema_showData.php?table=<?php echo $table?>&database=<?php echo $database?>"><button>Data</button></a></td>  
+<td><a class="nav-link" href="name.php?table=<?php echo $table?>&database=<?php echo $database?>"><button>Überschrift</button></a></td> 
