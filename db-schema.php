@@ -24,9 +24,6 @@
             {
                 ?>
                 <td><?php echo$database?></td>
-                <form action="db-schema_tables.php?database=<?php echo $database ?>" method="POST">
-                    <td><a class="nav-link"><button>Tables</button></a></td>
-                </form>
                 </tr>
                 <?php
             }
