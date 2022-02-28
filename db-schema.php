@@ -9,7 +9,6 @@
     <thead>
         <tr>
             <th>DB Name</th>
-            <th>Show Tables</th>
         </tr>
     </thead>
     <?php
