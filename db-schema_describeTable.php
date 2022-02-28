@@ -9,11 +9,7 @@
     <thead>
         <tr>
             <th>Field</th>
-            <th>Type</th>
-            <th>Null</th>
-            <th>Key</th>
-            <th>Default</th>
-            <th>Extra</th>
+            <th>All other fields from DB</th>
         </tr>
     </thead>
     <?php
@@ -30,11 +26,7 @@
             {
                 ?>
                 <td><?php echo$row['Field']?></td>
-                <td><?php echo$row['Type']?></td>
-                <td><?php echo$row['Null']?></td>
-                <td><?php echo$row['Key']?></td>
-                <td><?php echo$row['Default']?></td>
-                <td><?php echo$row['Extra']?></td>
+                <td><?php echo$row['All other fields from db']?></td>
                 </tr>
                 <?php
             }
